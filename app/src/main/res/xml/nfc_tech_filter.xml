@@ -1,0 +1,5 @@
+<tech-list>
+    <tech>android.nfc.tech.Ndef</tech>
+    <tech>android.nfc.tech.NfcF</tech>
+    <tech>android.nfc.tech.NfcV</tech>
+</tech-list>

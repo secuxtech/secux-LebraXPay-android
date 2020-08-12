@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/colorBlack"
+    android:orientation="horizontal">
+
+    <Button
+    android:id="@+id/button_account_operation_delete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:background="@null"
+
+    android:layout_marginRight="16dp"
+    android:visibility="visible"
+
+    android:onClick="onAccountDeleteButtonClick"
+    android:textSize="16sp"
+
+    android:textColor="@color/colorYellow"
+    android:text="Delete"/>
+
+    <Button
+        android:id="@+id/button_account_operation_recv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+
+        android:layout_marginRight="16dp"
+        android:visibility="visible"
+
+
+        android:onClick="onAccountRecvButtonClick"
+        android:textSize="16sp"
+
+        android:textColor="@color/colorYellow"
+        android:text="Receive"/>
+
+    <Button
+        android:id="@+id/button_account_operation_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+
+        android:layout_marginRight="16dp"
+        android:visibility="visible"
+
+
+        android:onClick="onAccountSendButtonClick"
+        android:textSize="16sp"
+
+        android:textColor="@color/colorYellow"
+        android:text="Send"/>
+
+    <Button
+        android:id="@+id/button_account_operation_his"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:background="@null"
+
+        android:layout_marginRight="16dp"
+        android:visibility="visible"
+
+
+        android:onClick="onTAccounTransHisButtonClick"
+        android:textSize="16sp"
+
+        android:textColor="@color/colorYellow"
+        android:text="Records"/>
+
+</LinearLayout>

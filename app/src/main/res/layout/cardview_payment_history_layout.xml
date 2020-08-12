@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_payment_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardElevation="2dp"
+        app:cardCornerRadius="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="vertical"
+                    android:layout_weight="4">
+
+                    <TextView
+                        android:id="@+id/textView_history_storename"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8sp"
+                        android:text="Store name"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorHistoryInfo"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:id="@+id/imageView_history_coinlogo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/dct"
+                            android:padding = "5sp"/>
+
+                        <TextView
+                            android:id="@+id/textView_history_account"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="3dp"
+
+                            android:text="Account test name name"
+                            android:textStyle="bold"
+                            android:textSize="16sp"
+                            android:textColor="@color/colorHistoryInfo"/>
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+
+                    android:layout_marginRight="8dp"
+                    android:orientation="vertical">
+
+                    <!--
+                    <TextView
+                        android:id="@+id/textView_history_usdbalance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="$1112.34"
+                        android:textSize="19sp"
+                        android:textColor="@color/colorHistoryInfo"/>
+                   -->
+
+                    <TextView
+                        android:id="@+id/textView_history_balance"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+
+                        android:textAlignment="viewEnd"
+                        android:text="12345 IFC"
+                        android:textSize="16sp"
+                        android:textColor="@color/colorPurple"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView_history_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+
+                android:text="9837336c9e87459b85202770a9c97dcb"
+                android:textSize="14sp"
+                android:textColor="@color/colorHistoryCode"/>
+
+            <TextView
+                android:id="@+id/textView_history_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5sp"
+
+                android:text="2020-02-12 00:22:11"
+                android:textSize="13sp"
+                android:textColor="@color/colorHistoryInfo"/>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

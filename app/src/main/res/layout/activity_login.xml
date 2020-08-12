@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bk_img"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".Activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageview_main_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="80dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:src="@drawable/logo_white" />
+
+    <LinearLayout
+        android:id="@+id/llayout_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginTop="130dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <!--
+
+    <EditText
+        android:id="@+id/editText_lgoin_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_login_invalid_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="Invalid email"
+        android:textSize="12sp"
+        android:textColor="#FF0000"
+        android:visibility="invisible"
+
+        android:layout_marginLeft="2sp"
+        app:layout_constraintTop_toBottomOf="@id/editText_lgoin_email"
+        app:layout_constraintLeft_toLeftOf="@id/editText_lgoin_email" />
+
+    <EditText
+        android:id="@+id/editText_lgoin_password"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editText_lgoin_email" />
+
+    <TextView
+        android:id="@+id/textView_login_invalid_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:text="Invalid password"
+        android:textSize="13dp"
+        android:textColor="#FF0000"
+        android:visibility="invisible"
+
+        android:layout_marginLeft="2sp"
+        app:layout_constraintTop_toBottomOf="@id/editText_lgoin_password"
+        app:layout_constraintLeft_toLeftOf="@id/editText_lgoin_password"
+
+         />
+
+
+    <TextView
+        android:id="@+id/textView_login_signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50sp"
+
+        android:clickable="true"
+        android:onClick="onSignupButtonClick"
+        android:text="Don't have an account? Sign up"
+
+        android:textColor="#2196F3"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:background="@drawable/ripple_effect"
+
+        android:onClick="onLoginButtonClick"
+        android:text="Login"
+
+        android:layout_marginTop="50dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editText_lgoin_password"/>
+
+-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

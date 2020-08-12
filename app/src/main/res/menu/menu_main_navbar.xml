@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_main_accounts"
+        android:icon="@drawable/main_nav_accounts"
+        android:title="@string/main_nav_accounts" />
+
+    <item
+        android:id="@+id/navigation_main_payment"
+        android:icon="@drawable/main_nav_payment"
+        android:title="@string/main_nav_payment" />
+
+
+    <item
+        android:id="@+id/navigation_main_userinfo"
+        android:icon="@drawable/main_nav_userinfo_select"
+        android:title="@string/main_nav_userinfo" />
+
+</menu>

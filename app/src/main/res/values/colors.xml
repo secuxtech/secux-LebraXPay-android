@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorTitle">#1F2020</color>
+    <color name="colorPageBkg">#F8F8F8</color>
+    <color name="colorAccountInfo">#707070</color>
+    <color name="colorHistoryInfo">#707070</color>
+    <color name="colorHistoryCode">#2196F3</color>
+    <color name="colorLabel">#1F2020</color>
+    <color name="colorPaymentSuccess">#51B924</color>
+    <color name="colorPaymentFail">#FA7B7B</color>
+    <color name="colorProgressRing">#EBCB56</color>
+    <color name="colorButtonDisabled">#8F8C8C</color>
+    <color name="colorAccountListBkg">#E9E9E9</color>
+    <color name="colorMainNavItemNormal">#A2A2A2</color>
+    <color name="colorMainNavItemSelect">#000000</color>
+    <color name="tab_background_selected">#001F2020</color>
+    <color name="tab_background_unselected">#008F8C8C</color>
+    <color name="tab_text_selected">#FFFFFF</color>
+    <color name="tab_text_unselected">#CCFFFFFF</color>
+    <color name="login_input_hint">#C8C8C8</color>
+    <color name="login_input_text">#FFFFFF</color>
+
+    <color name="bg_fingerprint">#1A73E8</color>
+    <color name="dialog_title">#4b4b4b</color>
+    <color name="dialog_subtitle">#7b7b7b</color>
+    <color name="dialog_description">#505050</color>
+    <color name="dialog_status">#fb744a</color>
+    <color name="dialog_cancel_btn">#009689</color>
+
+
+    <color name="colorYellow">#DFB445</color>
+    <color name="colorYellowLight">#FFF9E9</color>
+    <color name="colorPurple">#4F2359</color>
+    <color name="colorBlack">#01111C</color>
+
+    <color name="colorRefund">#E5a855</color>
+    <color name="colorRefill">#57a794</color>
+</resources>

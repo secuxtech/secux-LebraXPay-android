@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LibraXPay</string>
+    <string name="main_nav_accounts">Accounts</string>
+    <string name="main_nav_payment">Payment</string>
+    <string name="account_operation_transactions">Transactions</string>
+    <string name="account_operation_send">Send</string>
+    <string name="account_operation_receive">Receive</string>
+    <string name="account_operation_delete">Delete</string>
+    <string name="main_nav_userinfo">User</string>
+
+    <string name="biometric_failed">Fingerprint not recognized</string>
+</resources>

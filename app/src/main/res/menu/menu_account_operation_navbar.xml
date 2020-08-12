@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+    <item
+        android:id="@+id/navigation_account_operation_transactions"
+        android:icon="@drawable/icon_transaction_selected_nav"
+        android:title="@string/account_operation_transactions" />
+
+
+    <item
+        android:id="@+id/navigation_account_operation_send"
+        android:icon="@drawable/icon_send_selected_nav"
+        android:title="@string/account_operation_send" />
+        -->
+
+    <item
+        android:id="@+id/navigation_account_operation_receive"
+        android:icon="@drawable/icon_receive_selected_nav"
+        android:title="@string/account_operation_receive" />
+
+    <item
+        android:id="@+id/navigation_account_operation_delete"
+        android:icon="@drawable/icon_receive_selected_nav"
+        android:title="@string/account_operation_delete" />
+
+</menu>

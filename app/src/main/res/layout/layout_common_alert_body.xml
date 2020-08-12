@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/common_alert_background_shape"
+    android:id="@+id/layout_common_alert_body">
+
+
+    <TextView
+        android:id="@+id/textview_common_alert_title"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:text="Message title"
+        android:textColor="#282828"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview_common_alert_body"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+
+        android:text="Message body ewerewrwerw"
+        android:textColor="#A5A5A5"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="right"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_common_alert_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/common_alert_button"
+            android:onClick="onCancelButtonClick"
+
+            android:textSize="15sp"
+            android:textColor="#9C9C9C"
+            android:text="Cancel" />
+
+        <Button
+            android:id="@+id/button_common_alert_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/common_alert_button"
+            android:onClick="onOKButtonClick"
+
+            android:textSize="15sp"
+            android:textColor="@color/colorPurple"
+            android:text="OK" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
